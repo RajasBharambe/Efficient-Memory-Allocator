@@ -1,6 +1,6 @@
 # Efficient-Memory-Allocator
 
-Using C++
+
 
 ## Highlights:
 - Designed a simulator for the efficient dynamic allocation of memory to a large number of processes
