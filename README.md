@@ -15,4 +15,4 @@ not allocated to any program. If they are available, we should find the
 starting address of such a set of m locations, if not, the request
 should be kept pending. A program may also request deallocation of memory
 that was previously allocated to it. The starting address of the memory
-to be deallocated w
+to be deallocated.
