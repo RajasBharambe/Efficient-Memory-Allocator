@@ -1,6 +1,11 @@
 # Efficient Memory Allocator
 
 
+## Highlights:
+- Designed a simulator for the efficient dynamic allocation of memory to a large number of processes
+- Utilized the first-fit strategy to decide the locations at which memory should be allocated
+- Requests included are A(Allocate) , D(Deallocate), H(stop), T(Terminate)
+
 ## Detailed Statement :
 
 There are n processes and the system has a memory of size M, consisting of locations
