@@ -1,6 +1,5 @@
 # Efficient Memory Allocator
 
-
 ## Highlights:
 - Designed a simulator for the efficient dynamic allocation of memory to a large number of processes
 - Utilized the first-fit strategy to decide the locations at which memory should be allocated
