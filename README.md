@@ -1,4 +1,3 @@
-# Efficient Memory Allocator
 
 
 ## Highlights:
