@@ -20,7 +20,7 @@ Whenever memory is freed, you have to check if any pending requests for memory c
 
 Different strategies are used for deciding the locations to allocate. The simplest one is called the first-fit strategy, in which the smallest address such that there exist required number of consecutive unallocated locations starting from it, is allocated. Another is called the best fit strategy, in which the starting address of a block of consecutive unallocated locations of minimum size >= required number is allocated.
 
-I have implemented the first fit startegy
+I have implemented the first fit startegy.
 
 Input Format:
 The first line of input specifies n, the number of programs, and M the number of memory locations. Assume 1 <= n <= 1000 and 1 <= M <= 109. The subsequent lines contain a description of the requests to the system. Each request is of one of the following types:
