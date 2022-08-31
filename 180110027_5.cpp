@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 bool less_than(pair<int,int> a,pair <int,int> b)
 {   if(a.first<b.first)
         return true;
