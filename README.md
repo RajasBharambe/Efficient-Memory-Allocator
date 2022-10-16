@@ -16,7 +16,7 @@ should be kept pending. A program may also request deallocation of memory
 that was previously allocated to it. The starting address of the memory
 to be deallocated.
 
-Whenever memory is freed, you have to check if any pending requests for memory can now be allocated, and if so do the allocation in the order in which the requests were made. Note that when a program terminates, all memory allocated to it must be freed, before considering pending requests.
+Whenever memoy is freed, you have to check if any pending requests for memory can now be allocated, and if so do the allocation in the order in which the requests were made. Note that when a program terminates, all memory allocated to it must be freed, before considering pending requests.
 
 Different strategies are used for deciding the locations to allocate. The simplest one is called the first-fit strategy, in which the smallest address such that there exist required number of consecutive unallocated locations starting from it, is allocated. Another is called the best fit strategy, in which the starting address of a block of consecutive unallocated locations of minimum size >= required number is allocated.
 
@@ -49,12 +49,7 @@ D 0 0
 A 1 2
 H
 
-Sample Output:
-0
-5
-0
-0
--1
+Sample 
 
 Testcases:
 Testcases is a html file with sample inputs and outputs as files.
