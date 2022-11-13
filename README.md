@@ -1,4 +1,4 @@
-# Efficient Memory Allocator
+# Memory Allocator
 
 ## Highlights:
 - Designed a simulator for the efficient dynamic allocation of memory to a large number of processes
